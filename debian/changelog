@@ -1,0 +1,37 @@
+node-arrify (2.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-arrify: Add Multi-Arch: foreign.
+
+  [ Bastien Roucariès ]
+  * Bump standard version (no changes)
+  * Drop depends on nodejs
+  * Improve description
+
+ -- Bastien Roucariès <rouca@debian.org>  Sat, 25 Sep 2021 13:52:33 +0000
+
+node-arrify (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 2.0.1
+  * Switch upstream test from ava to tape
+  * Enable upstream test
+  * Use pkg-js-tools auto test & install
+  * Fix copyright
+  * Update VCS fields to salsa
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 19 Feb 2020 06:25:25 +0100
+
+node-arrify (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #843067)
+
+ -- Sruthi Chandran <srud@disroot.org>  Thu, 03 Nov 2016 21:39:50 +0530

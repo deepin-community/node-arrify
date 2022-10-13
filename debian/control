@@ -1,0 +1,25 @@
+Source: node-arrify
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Sruthi Chandran <srud@disroot.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , node-tape <!nocheck>
+ , node-tap <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-arrify
+Vcs-Git: https://salsa.debian.org/js-team/node-arrify.git
+Homepage: https://github.com/sindresorhus/arrify#readme
+Rules-Requires-Root: no
+
+Package: node-arrify
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Convert a value to an array
+ Convert a scalar value or a single element set to an array.
+ Supplying null or undefined results in an empty array.
+ .
+ Node.js is an event-based server-side JavaScript engine.
